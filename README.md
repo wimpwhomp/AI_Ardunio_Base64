@@ -14,7 +14,7 @@ Place `base64.h` in your Arduino project folder (same directory as your `.ino` f
 
 ### 2. Basic Implementation
 ```cpp
-#include "base64.h"
+#include <base64.h>
 
 void setup() {
     Serial.begin(115200);
